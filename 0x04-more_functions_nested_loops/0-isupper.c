@@ -2,5 +2,11 @@
 #include <ctype.h>
 int _isupper(int c)
 {
-	return isupper(c) ;
+	if (isupper(c)){
+		printf("1");
+	}
+	else {
+		printf("0");
+	}
+	return(0)
 }
