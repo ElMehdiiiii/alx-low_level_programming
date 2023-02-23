@@ -1,13 +1,14 @@
-#!/bin/bash
 #include <stdio.h>
 #include <ctype.h>
+#include "main.h"
+
 int _isupper(int c)
 {
 	if (isupper(c)){
-		printf("1");
+		return(1);
 	}
 	else {
-		printf("0");
+		return(0);
 	}
-	return(0)
+	
 }
